@@ -1,9 +1,7 @@
-import os
-
-
-def helloWorld():
-    x = 1
+def hello_world() -> None:
+    """Prints a simple greeting message."""
     print("Hello, World!")
 
 
-helloWorld()
+if __name__ == "__main__":
+    hello_world()
